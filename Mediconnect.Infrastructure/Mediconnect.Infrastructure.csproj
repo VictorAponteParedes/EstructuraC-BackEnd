@@ -10,4 +10,11 @@
     <ProjectReference Include="..\Mediconnect.Core\Mediconnect.Core.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Persistecies\DbConfings\" />
+    <Folder Include="Persistecies\DbContexts\" />
+    <Folder Include="Persistecies\EntitiesConfigurations\" />
+    <Folder Include="Persistecies\Repositories\" />
+  </ItemGroup>
+
 </Project>
