@@ -1,0 +1,94 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "Mediconnect.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Mediconnect.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mediconnect.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Mediconnect.Core/1.0.0": {
+      "type": "project",
+      "path": "../Mediconnect.Core/Mediconnect.Core.csproj",
+      "msbuildProject": "../Mediconnect.Core/Mediconnect.Core.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Mediconnect.Core >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/victoraponte/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/victoraponte/Desktop/Proyectos de Casa/MedictConnect/API/Mediconnect.Infrastructure/Mediconnect.Infrastructure.csproj",
+      "projectName": "Mediconnect.Infrastructure",
+      "projectPath": "/Users/victoraponte/Desktop/Proyectos de Casa/MedictConnect/API/Mediconnect.Infrastructure/Mediconnect.Infrastructure.csproj",
+      "packagesPath": "/Users/victoraponte/.nuget/packages/",
+      "outputPath": "/Users/victoraponte/Desktop/Proyectos de Casa/MedictConnect/API/Mediconnect.Infrastructure/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/victoraponte/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "/Users/victoraponte/Desktop/Proyectos de Casa/MedictConnect/API/Mediconnect.Core/Mediconnect.Core.csproj": {
+              "projectPath": "/Users/victoraponte/Desktop/Proyectos de Casa/MedictConnect/API/Mediconnect.Core/Mediconnect.Core.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.405/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
